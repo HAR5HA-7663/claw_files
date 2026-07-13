@@ -1,0 +1,15 @@
+# Build intermediates from the manual build.sh pipeline
+/build/
+
+# Gradle
+.gradle/
+/app/build/
+local.properties
+
+# Keystores (a debug keystore is generated on the fly by build.sh)
+*.keystore
+
+# IDE
+.idea/
+*.iml
+.DS_Store
